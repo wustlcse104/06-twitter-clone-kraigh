@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>My Twitter Page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <script src="https://use.fontawesome.com/412c391b00.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container">
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa fa-home"></i> Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa fa-bolt"></i> Moments</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa fa-bell"></i> Notifications</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa fa-envelope"></i> Messages</a>
+                        </li>
+                    </ul>
+                    <a class="navbar-brand" href="#"><i class="fa fa-twitter"></i></a>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search Twitter" aria-label="Search" id="search">
+                    </form>
+                    <a class="btn btn-primary tweet-button" href="#">Tweet</a>
+                </div>
+            </div>
+        </nav>
+        <header>
+            <div id="cover-photo-wrapper">
+                <img src="rose-1-cropped.jpg" alt="Cover Image - Rose" />
+
+            </div>
+            <div id="profile-photo-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="rose-2-cropped.jpg" id="profile-photo" alt="Profile Photo - Rose" />
+                        </div>
+                        <div class="col-6">
+                            <a href="#" class="profile-stats">Tweets<span>320</span></a>
+                            <a href="#" class="profile-stats">Following<span>600</span></a>
+                            <a href="#" class="profile-stats">Followers<span>900</span></a>
+                            <a href="#" class="profile-stats">Likes<span>1,000</span></a>
+                        </div>
+                        <div class="col-2">
+                            <button type="button" class="btn btn-outline-primary" id="follow-button">Follow</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-4" id="profile">
+                    <hgroup>
+                        <a href="#"><h1>Rose Hufstedler <i class="fa fa-check-circle" aria-hidden="true"></i></h1></a>
+                        <a href="#"><h2>@rosehufstedler</h2></a>
+                    </hgroup>
+                    <p>I'm a baby. I like to sleep and eat.</p>
+                    <span><i class="fa fa-map-marker"></i> Edwardsville, IL</span>
+                    <span><i class="fa fa-link"></i> <a href="#">rosethebaby.com</a></span>
+                    <span><i class="fa fa-calendar"></i> Joined Jan. 2017</span>
+                    <a class="btn btn-primary tweet-button" href="#">Tweet To Rose</a>
+                    <span><i class="fa fa-user"></i> <a href="#">99 Followers you know</a></span>
+                    <div id="follower-profile-photos">
+                        <img src="http://via.placeholder.com/50x50" alt="Follower Profile Photo"/>
+                        <img src="http://via.placeholder.com/50x50" alt="Follower Profile Photo"/>
+                        <img src="http://via.placeholder.com/50x50" alt="Follower Profile Photo"/>
+                        <img src="http://via.placeholder.com/50x50" alt="Follower Profile Photo"/>
+                        <img src="http://via.placeholder.com/50x50" alt="Follower Profile Photo"/>
+                        <br />
+                        <img src="http://via.placeholder.com/50x50" alt="Follower Profile Photo"/>
+                        <img src="http://via.placeholder.com/50x50" alt="Follower Profile Photo"/>
+                        <img src="http://via.placeholder.com/50x50" alt="Follower Profile Photo"/>
+                        <img src="http://via.placeholder.com/50x50" alt="Follower Profile Photo"/>
+                        <img src="http://via.placeholder.com/50x50" alt="Follower Profile Photo"/>
+                    </div>
+                    <span><i class="fa fa-image"></i> <a href="#">100 Photos and videos</a></span>
+                    <div id="photos-and-videos">
+                        <img src="http://via.placeholder.com/100x100" alt="Tweeted Photo"/>
+                        <img src="http://via.placeholder.com/100x100" alt="Tweeted Photo"/>
+                        <img src="http://via.placeholder.com/100x100" alt="Tweeted Photo"/>
+                        <br />
+                        <img src="http://via.placeholder.com/100x100" alt="Tweeted Photo"/>
+                        <img src="http://via.placeholder.com/100x100" alt="Tweeted Photo"/>
+                        <img src="http://via.placeholder.com/100x100" alt="Tweeted Photo"/>
+                    </div>
+                </div>
+                <div class="col-8" id="tweets">
+                    <nav class="nav">
+                        <a class="nav-link active" href="#">Tweets</a>
+                        <a class="nav-link" href="#">Tweets &amp; replies</a>
+                        <a class="nav-link" href="#">Media</a>
+                    </nav>
+                    <article class="container">
+                        <div class="row no-gutters">
+                            <div class="col-1">
+                                <img src="rose-2-cropped.jpg" class="profile-thumbnail" alt="Profile Photo- Rose" />
+                            </div>
+                            <div class="col-11 tweet-body">
+                                <a href="#" class="tweet-username"><span class="username-name">Rose Hufstedler</span> <i class="fa fa-check-circle"></i> <span class="username-handle">@rosehufstedler</span></a>
+                                <p>Current status: teething. This is the worst and I let my parents know about it by waking up and crying in the middle of the night.</p>
+                                <nav>
+                                    <a href="#" class="comments"><i class="fa fa-comment-o"></i> 230</a>
+                                    <a href="#" class="retweets"><i class="fa fa-retweet"></i> 620</a>
+                                    <a href="#" class="hearts"><i class="fa fa-heart-o"></i> 980</a>
+                                    <a href="#" class="email"><i class="fa fa-envelope-o"></i></a>
+                                </nav>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="container">
+                        <div class="row no-gutters">
+                            <div class="col-1">
+                                <img src="rose-2-cropped.jpg" class="profile-thumbnail" alt="Profile Photo - Rose" />
+                            </div>
+                            <div class="col-11 tweet-body">
+                                <a href="#" class="tweet-username"><span class="username-name">Rose Hufstedler</span> <i class="fa fa-check-circle"></i> <span class="username-handle">@rosehufstedler</span></a>
+                                <p>This was my halloween costume. I was a Rose. Real clever Mom and Dad... real clever.</p>
+                                <img src="rose.jpg" alt="Rose in a Rose Costume" />
+                                <nav>
+                                    <a href="#" class="comments"><i class="fa fa-comment-o"></i> 230</a>
+                                    <a href="#" class="retweets"><i class="fa fa-retweet"></i> 620</a>
+                                    <a href="#" class="hearts"><i class="fa fa-heart-o"></i> 980</a>
+                                    <a href="#" class="email"><i class="fa fa-envelope-o"></i></a>
+                                </nav>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="container">
+                        <div class="row no-gutters">
+                            <div class="col-1">
+                                <img src="rose-2-cropped.jpg" class="profile-thumbnail" alt="Profile Photo - Rose" />
+                            </div>
+                            <div class="col-11 tweet-body">
+                                <a href="#" class="tweet-username"><span class="username-name">Rose Hufstedler</span> <i class="fa fa-check-circle"></i> <span class="username-handle">@rosehufstedler</span></a>
+                                <p>Why is sleep even necessary? It's boring and I'd rather be playing. I think i'll skip sleeping today.</p>
+                                <nav>
+                                    <a href="#" class="comments"><i class="fa fa-comment-o"></i> 230</a>
+                                    <a href="#" class="retweets"><i class="fa fa-retweet"></i> 620</a>
+                                    <a href="#" class="hearts"><i class="fa fa-heart-o"></i> 980</a>
+                                    <a href="#" class="email"><i class="fa fa-envelope-o"></i></a>
+                                </nav>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    </body>
+</html>

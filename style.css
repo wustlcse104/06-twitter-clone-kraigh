@@ -1,0 +1,274 @@
+a, a:hover {
+    color: #329CC3;
+}
+
+body {
+    margin-top: 57px;
+    background-color: #e6ecf0;
+}
+
+.navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #999;
+}
+
+/* twitter icon */
+.navbar-brand {
+    margin: 0px auto;
+    position: relative;
+    left: -25px;
+}
+
+.navbar-brand i {
+    color: #1da1f2;
+}
+
+#search {
+    background-color: #f5f8fa;
+    border-radius: 20px;
+    border: 1px solid #e6ecf0;
+}
+
+#search:focus {
+    background-color: #fff;
+    border: 2px solid #1da1f2;
+    box-shadow: none;
+}
+
+.tweet-button {
+    background-color: #329CC3;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+}
+
+.tweet-button:hover {
+    background-color: #31809E;
+}
+
+#cover-photo-wrapper {
+    height: 300px;
+    overflow: hidden;
+}
+
+#cover-photo-wrapper img {
+    width: 100%;
+}
+
+#profile-photo-wrapper {
+    background-color: #fff;
+    border-bottom: 2px solid #ccc;
+    height: 60px;
+    position: relative;
+}
+
+/* img */
+#profile-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 5px solid #fff;
+    position: absolute;
+    top: -110px;
+}
+
+/* each is a link- tweets, followers, following, likes */
+.profile-stats {
+    float: left;
+    text-align: center;
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 4px;
+    margin-right: 4px;
+    text-decoration: none;
+    color: #666;
+    font-size: 0.8em;
+}
+
+.profile-stats:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #31809E;
+    color: #666;
+}
+
+.profile-stats:hover span {
+    color: #31809E;
+}
+
+.profile-stats span {
+    display: block;
+    font-size: 1.4em;
+    color: #444;
+    position: relative;
+    top: -4px;
+}
+
+#follow-button {
+    border-color: #329CC3;
+    color: #329CC3;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+#follow-button:hover {
+    background-color: #E5F2F7;
+}
+
+#profile {
+    margin-top: 35px;
+}
+
+#profile h1 {
+    color: #222;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#profile h1 .fa {
+    color: #1da1f2;
+}
+
+#profile h2 {
+    font-size: 1em;
+    color: #666;
+    font-weight: normal;
+    position: relative;
+    top: -6px;
+}
+
+#profile p {
+    margin-top: 6px;
+    font-size: 0.9em;
+}
+
+#profile span {
+    display: block;
+    color: #666;
+    font-size: 0.9em;
+    margin-bottom: 4px;
+}
+
+#profile span .fa {
+    width: 15px;
+}
+
+#profile .tweet-button {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+#follower-profile-photos img {
+    border-radius: 25px;
+    margin-bottom: 4px;
+}
+
+#photos-and-videos img {
+    width: 32%;
+    margin-bottom: 6px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#tweets > nav {
+    margin-top: 10px;
+    background-color: #fff;
+    padding: 10px 0px;
+    border-bottom: 1px solid #e6ecf0;
+}
+
+#tweets > nav a {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#tweets > nav a.active {
+    color: #222;
+}
+
+#tweets > nav a:hover {
+    text-decoration: underline;
+}
+
+#tweets article {
+    background-color: #fff;
+    border-bottom: 1px solid #e6ecf0;
+    padding: 15px;
+}
+
+#tweets article:hover {
+    background-color: #f5f8fa;
+}
+
+#tweets .profile-thumbnail {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+
+#tweets .tweet-body {
+    font-size: 0.9em;
+}
+
+#tweets .tweet-username .username-name {
+    color: #222;
+    font-weight: bold;
+}
+
+#tweets .tweet-username:hover {
+    text-decoration: none;
+}
+
+#tweets .tweet-username:hover .username-name {
+    text-decoration: underline;
+    color: #1da1f2;
+}
+
+#tweets .tweet-username .fa {
+    color: #1da1f2;
+}
+
+#tweets .tweet-username .username-handle {
+    color: #666;
+    font-weight: normal;
+}
+
+#tweets .tweet-body nav a {
+    color: #657786;
+    padding: 0px 6px;
+}
+
+#tweets .tweet-body nav a .fa {
+    margin-right: 5px;
+}
+
+#tweets .tweet-body nav a:hover {
+    text-decoration: none;
+}
+
+#tweets .tweet-body nav a:hover.comments,
+#tweets .tweet-body nav a:hover.email {
+    color: #1da1f2;
+}
+
+#tweets .tweet-body nav a:hover.retweets {
+    color: #17bf63;
+}
+
+#tweets .tweet-body nav a:hover.hearts {
+    color: #e0245e;
+}
+
+#tweets .tweet-body img {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #e6ecf0;
+    margin-bottom: 10px;
+} 
+
+
+
+
